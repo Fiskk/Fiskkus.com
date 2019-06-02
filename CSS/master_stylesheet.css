@@ -3,12 +3,21 @@
 }
 
 body {
+/*
   background-image: url("..\\img\\wallpaper.jpg");
+*/
+  background-color: white;
+}
+
+#Wrapper {
+  background: url("..\\img\\wallpaper.jpg") no-repeat center top;
+  height: 120px;
 }
 
 .welcome {
   text-align: center;
-  color: white;
+  color: black;
+  top: 35px
 }
 
 .link {
