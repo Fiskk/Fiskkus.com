@@ -1,6 +1,9 @@
+*{
+  box-sizing: border-box
+}
+
 body {
   background-image: url("..\\img\\wallpaper.jpg");
-  box-sizing: content-box;
 }
 
 .welcome {
@@ -13,7 +16,17 @@ body {
   color: #f06d06;
   padding: 5px;
   margin: 5px;
-  left: auto;
   text-align: left;
+}
+
+.boot-links {
+  margin: 5px;
+  top: 5px
+}
+
+.me-card {
+  border: 1px solid slategrey;
+  margin-right: 20px;
+  float: right;
 
 }
