@@ -1,11 +1,19 @@
+body {
+  background-image: url("..\\img\\wallpaper.jpg");
+  box-sizing: content-box;
+}
+
 .welcome {
   text-align: center;
-  color: slategrey;
+  color: black;
 }
 
 .link {
   border: 1px solid black;
+  color: #f06d06;
   padding: 5px;
-  margin: 10px;
+  margin: 5px;
+  left: auto;
+  text-align: left;
 
 }
