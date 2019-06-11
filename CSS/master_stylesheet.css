@@ -3,13 +3,14 @@
 }
 
 body {
-/*
-  background-image: url("..\\img\\wallpaper.jpg");
-*/
   background-color: white;
 }
 
 #Wrapper {
+  /*
+  position: absolute;
+  top: 0;
+  */
   background: url("..\\img\\wallpaper.jpg") no-repeat center top;
   height: 120px;
 }
@@ -17,25 +18,29 @@ body {
 .welcome {
   text-align: center;
   color: black;
-  top: 35px
+  top: 35px;
 }
 
-.link {
-  border: 1px solid black;
-  color: #f06d06;
-  padding: 5px;
-  margin: 5px;
-  text-align: left;
+.btn.btn-primary.btn-lg.active {
+  background-color: #f06d06;
 }
 
 .boot-links {
+  /*
+  position: relative;
+  top: 25%;
+  left: 20%;
+  */
   margin: 5px;
-  top: 5px
 }
 
 .me-card {
+  position: fixed;
+  top: 170px;
+  right:20px;
   border: 1px solid slategrey;
   margin-right: 20px;
+  /*
   float: right;
-
+  */
 }
