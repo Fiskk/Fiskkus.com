@@ -44,3 +44,14 @@ body {
   float: right;
   */
 }
+
+.content-selector {
+
+  top: 300px;
+  right:200px;
+  margin-right: 20px;
+}
+
+#contents {
+  float: right;
+}

@@ -1,0 +1,3 @@
+Use sqlite to track climbs,
+- table structure
+Date, Dicipline, grade, indoor/Outside
