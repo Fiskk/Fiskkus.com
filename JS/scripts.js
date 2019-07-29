@@ -6,4 +6,3 @@ function populatePre(url) {
     xhr.open('GET', url);
     xhr.send();
 }
-//populatePre('..\\img\\ToDo.txt');
