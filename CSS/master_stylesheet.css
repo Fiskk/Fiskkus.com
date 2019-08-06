@@ -53,10 +53,22 @@ body {
   margin-left: 1%;
 }
 
+.center-aligned {
+  text-align: center;
+}
+
+.climbs-header {
+  border: 1px solid black;
+}
+
 #contents {
   padding-top: 10px;
 }
 
 #climbs {
-
+  display: none;
+  width: 25%;
+  border: 1px solid black;
+  margin-top: 1%;
+  margin-left: 1%;
 }

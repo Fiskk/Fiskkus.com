@@ -6,3 +6,8 @@ function populatePre(url) {
     xhr.open('GET', url);
     xhr.send();
 }
+
+function toggleTable() {
+    var lTable = document.getElementById("climbs");
+    lTable.style.display = (lTable.style.display === "table") ? "none" : "table";
+}

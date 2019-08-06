@@ -28,17 +28,21 @@
 
     <div class="content-selector">
       <button type="button" class="btn btn-success" onclick="populatePre('..\\ToDo.txt')">View To-Do List</button>
+      <button type="button" class="btn btn-success" onclick="toggleTable()">View Climbs</button>
+      <button type="button" class="btn btn-success" onclick="location.href='\\bass_Notes_page.html';">Bass Notes Program</button>
+      <!--
       <button type="button" class="btn btn-success" onclick="populatePre('..\\Climbs.txt')">View Climbs</button>
+      -->
       <pre id="contents"></pre>
     </div>
 
     <table id="climbs">
       <thead>
         <tr>
-          <th class="date-header">Date</th>
-          <th class="climb-header">Climb</th>
-          <th class="discipline-header">Discipline</th>
-          <th class="grade-header">Grade</th>
+          <th class="climbs-header center-aligned">Date</th>
+          <th class="climbs-header center-aligned">Climb</th>
+          <th class="climbs-header center-aligned">Discipline</th>
+          <th class="climbs-header center-aligned">Grade</th>
         </tr>
       </thead>
       <tbody>
