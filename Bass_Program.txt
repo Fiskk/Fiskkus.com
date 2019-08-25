@@ -1,0 +1,22 @@
+$Notes = ('E','F','F#','G','G#','A','A#','B','C','C#','D','D#')
+$String = ('E-String', 'A-String')
+
+$SecondBetweenNotes = 6
+$Iterations = 20
+
+for($I = 0; $I -lt $Iterations; $I++){
+
+    $NumStrings = $String.Length
+    $NumNotes = $Notes.Length
+
+    # Write-Host $NumStrings  $NumNotes
+
+    $RandString = Get-Random -Maximum $($NumStrings) -Minimum 0
+    $RandNote = Get-Random -Maximum $($NumNotes) -Minimum 0
+
+    # Write-Host $RandString  $RandNote
+    Clear-Host
+    Write-Host `n $String[$RandString]  $Notes[$RandNote] `n
+    
+    start-sleep -Seconds $SecondBetweenNotes
+}
